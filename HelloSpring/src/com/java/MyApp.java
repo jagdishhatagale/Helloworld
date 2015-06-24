@@ -8,7 +8,7 @@ public class MyApp {
 		// TODO Auto-generated method stub
 		ApplicationContext context= new ClassPathXmlApplicationContext("Bean.xml");
 		HelloWorld obj= (HelloWorld) context.getBean("helloWorld");
-		System.out.println("The msg after GIT.........222");
+		System.out.println("The msg after GIT.........333");
 		obj.getMessage();
 
 	}
